@@ -12,6 +12,5 @@ int main() {
   } else {
     printf("You are still a kid!\n");
   }
-
   return 0;
 }
