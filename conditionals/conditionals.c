@@ -9,7 +9,6 @@ int main() {
 
   if (age >= 18) {
     printf("You are an adult\n");
-
   } else {
     printf("You are still a kid!\n");
   }
