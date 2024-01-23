@@ -18,7 +18,7 @@ int main() {
   for (int i = 0; i < sizeof(students) / sizeof(students)[0]; i++) {
     // printf("Name: %s\n", students[i].name);
     // printf("GPA: %f\n", students[i].gpa);
-    printf("Name: %s\nGPA: %.2f\n", students[i].name, students[i].gpa);
+    printf("Name: %-8s\tGPA: %.2f\n", students[i].name, students[i].gpa);
   }
 
   return 0;
