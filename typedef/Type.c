@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <string.h>
 
-// NOTE: it's a reserved keyword to give an existing datatype a "nickname"
-//  from char user1[25] = "Name"
-//  to typedef char user[25]; -> user user1 = "Name";
+/* NOTE: it's a reserved keyword to give an existing datatype a "nickname"
+ * from char user1[25] = "Name"
+ * to typedef char user[25]; -> user user1 = "Name";
+ */
 
 typedef char user[25];
 
