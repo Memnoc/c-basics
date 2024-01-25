@@ -7,11 +7,6 @@
  * * = indirection operator (value at address)
  */
 
-/*
- * HACK: it is good practice to assign NULL if declaring a pointer
- * int *pAge = NULL;
- */
-
 void print_age(int *pAge) {
   printf("You are %d years old\n", *pAge); // dereference
 };
