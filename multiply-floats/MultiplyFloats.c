@@ -5,8 +5,11 @@
 
 #include <stdio.h>
 
-float multiply_floats(float numberOne, float numberTwo) {
-  float total;
+double multiply_floats(double numberOne, double numberTwo) {
+  double total;
+
+  printf("Enter two numbers to multiply: \n");
+  scanf("%lf %lf", &numberOne, &numberTwo);
   total = numberOne * numberTwo;
 
   return printf("The total is: %.0f\n", total);
@@ -15,9 +18,6 @@ float multiply_floats(float numberOne, float numberTwo) {
 int main() {
 
   double a, b;
-
-  printf("Enter two numbers to multiply: \n");
-  scanf("%lf %lf", &a, &b);
 
   multiply_floats(a, b);
   return 0;
