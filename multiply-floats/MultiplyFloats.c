@@ -14,13 +14,10 @@ float multiply_floats(float numberOne, float numberTwo) {
 
 int main() {
 
-  float a, b;
+  double a, b;
 
-  printf("Enter first number\n");
-  scanf("%f", &a);
-
-  printf("Enter second number\n");
-  scanf("%f", &b);
+  printf("Enter two numbers to multiply: \n");
+  scanf("%lf %lf", &a, &b);
 
   multiply_floats(a, b);
   return 0;
